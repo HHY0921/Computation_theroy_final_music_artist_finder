@@ -30,12 +30,12 @@ Before running the project, ensure you have the following installed and set up:
 
 ## Installation and Setup
 
-Add an empty tool inside the open webui (Workspace > Tools > + Create Tool)
-Copy the code from main.py to the tool code and save
-Once saved, look for the "Valves" or "Settings" icon next to your new tool.
-Enter your SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET there.
-Start a new chat.
-Click the + (Tools) button and toggle the "Spotify" tool on.
+* Add an empty tool inside the open webui (Workspace > Tools > + Create Tool)
+* Copy the code from main.py to the tool code and save
+* Once saved, look for the "Valves" or "Settings" icon next to your new tool.
+* Enter your SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET there.
+* Start a new chat.
+* Click the + (Tools) button and toggle the "Spotify" tool on.
 
 ## Example questions
 
