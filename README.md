@@ -4,7 +4,7 @@ An intelligent agent designed to assist a Large Language Model (LLM) by providin
 
 ---
 
-## ✨ Features
+## Features
 
 * **Top Tracks Lookup:** Retrieve a specified artist's **top 10 most popular tracks** globally.
 * **Artist Discovery:** Find the primary artist(s) of a given song name.
@@ -12,13 +12,13 @@ An intelligent agent designed to assist a Large Language Model (LLM) by providin
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 Before running the project, ensure you have the following installed and set up:
 
-1.  **Python 3.8+**
-2.  A **Spotify Developer Account**.
-3.  A registered Spotify Application to obtain a **Client ID** and **Client Secret**.
+1.  A **Spotify Developer Account**.
+2.  A registered Spotify Application to obtain a **Client ID** and **Client Secret**.
+3.  An **Openweb Acount**
 
 ### Spotify API Setup
 
@@ -28,32 +28,20 @@ Before running the project, ensure you have the following installed and set up:
 
 ---
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
-### 1. Clone the repository
+Add an empty tool inside the open webui (Workspace > Tools > + Create Tool)
+Copy the code from main.py to the tool code and save
+Once saved, look for the "Valves" or "Settings" icon next to your new tool.
+Enter your SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET there.
+Start a new chat.
+Click the + (Tools) button and toggle the "Spotify" tool on.
 
-```bash
-git clone [https://github.com/yourusername/llm-spotify-agent.git](https://github.com/yourusername/llm-spotify-agent.git)
-cd llm-spotify-agent
-```
+## Example questions
 
-### 2. Create and activate a virtual environment (Recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On Linux/macOS
-venv\Scripts\activate      # On Windows
-```
-
-### 3. Install dependencies
-This project uses the spotipy library for interacting with the Spotify API and python-dotenv for environment variable managemen
-```bash
-pip install -r requirements.txt
-```
-### 4. Configure Environment Variables
-Create a file named .env in the root directory of the project and add your Spotify credentials:
-
-```
-# .env file
-SPOTIPY_CLIENT_ID="YOUR_SPOTIFY_CLIENT_ID"
-SPOTIPY_CLIENT_SECRET="YOUR_SPOTIFY_CLIENT_SECRET"
-```
+1.  give me top tracks from ... 
+2.  find me 5 newest songs from ...
+3.  what songs are in the album ...
+4.  who made the song ...
+5.  find me some sad and slow songs for a rainy day
+6.  what’s the release date of these songs
