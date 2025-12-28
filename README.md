@@ -37,6 +37,18 @@ Before running the project, ensure you have the following installed and set up:
 * Start a new chat.
 * Click the + (Tools) button and toggle the "Spotify" tool on.
 
+## Activating Open-webui
+* use python to activate open webui
+1. install open-webui package
+```
+pip install open-webui
+```
+2. initiate open-webui
+```
+* open-webui serve
+```
+after this, open webui will run on http://localhost:8080
+
 ## Example questions
 
 1.  give me top tracks from ... 
