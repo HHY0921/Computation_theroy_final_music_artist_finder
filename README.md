@@ -57,3 +57,9 @@ after this, open webui will run on http://localhost:8080
 4.  who made the song ...
 5.  find me some sad and slow songs for a rainy day
 6.  what’s the release date of these songs
+
+## Flow Chart
+
+<img src="https://github.com/HHY0921/Computation_theroy_final_music_artist_finder/blob/main/picture/Interaction%20Flow%20Chart.png"/>
+
+<img src="https://github.com/HHY0921/Computation_theroy_final_music_artist_finder/blob/main/picture/Python%20Tools%20Interaction%20Flow%20Chart.png"/>
